@@ -58,8 +58,152 @@ html, body {
 	
 }
 
+@primary-color: white;
+@border-style: 1px solid black;
+@hover-color: black;
+@background-color: slategray;
 
+.center() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pad-b() {
+	padding-bottom: 5%;
+}
+
+header {
+  background-color: @background-color;
+	
+    nav {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 2%;
+		
+		a {
+			margin: 0 3%;
+			color: @primary-color;
+			font-size: 25px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		a:hover {
+			color:@hover-color;
+		}
+	}
+}
+
+.headerImg {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1%;
+}
+
+h1 {
+	font-size: 150px;
+	display: flex;
+	justify-content: center;
+	color: @primary-color;
+}
+
+.headerstmnt {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: @primary-color;
+
+	h2 {
+		font-size: 65px;
+		padding-bottom: 1%;
+	}
+}
+.headerstmnt p {
+	font-size: 20px;
+	.pad-b();
+}
+ button {
+	 margin-bottom: 1%;
+	 background-color: red;
+	 color: @primary-color;
+	 font-size: 25px;
+ }
+
+ button:hover {
+	 color: @hover-color;
+ }
+
+ .skillsInterests {
+	 background-color: @background-color;
+	 .center();
+
+	 div{
+		 margin: 2% 10%;
+		 padding: 1%;
+		 color: @primary-color;
+
+		 h2 {
+			 font-size: 65px;
+			 text-decoration: underline;
+			 text-transform: uppercase;
+			 .pad-b();
+
+		 }
+	 }
+ }
+
+.skills {
+	font-size: 35px;
+}
+
+.interests {
+	font-size: 35px;
+}
+
+hr {
+ height: 2px;
+ color: red;
+ border: none;
+ background-color: red;
+ margin: 0;
+}
+
+.workHistory {
+	background-color: @background-color;
+	.center();
+
+	h2 {
+		font-size: 55px;
+		color: @primary-color;
+		
+	}
+}
+
+.workHistory div {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		color: @primary-color;
+		padding: 2%;
+		margin: 1%;
+
+		h3 {
+			font-size: 25px;
+			text-decoration: underline;
+			.pad-b();
+				
+}
+
+.copyright {
+	background-color: @background-color;
+	.center();
 }
 
 
 
+
+
+}
