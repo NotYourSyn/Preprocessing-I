@@ -242,7 +242,7 @@ hr {
   text-decoration: underline;
   padding-bottom: 5%;
 }
-.workHistory div .copyright {
+.copyright {
   background-color: slategray;
   display: flex;
   justify-content: center;
