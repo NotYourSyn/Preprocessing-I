@@ -190,6 +190,7 @@ button {
   background-color: red;
   color: white;
   font-size: 25px;
+  border: 2px solid white;
 }
 button:hover {
   color: black;
