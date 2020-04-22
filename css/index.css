@@ -141,7 +141,7 @@ body {
   }
 }
 header {
-  background-color: slategray;
+  background-color: black;
 }
 header nav {
   display: flex;
@@ -151,13 +151,13 @@ header nav {
 }
 header nav a {
   margin: 0 3%;
-  color: white;
+  color: red;
   font-size: 25px;
   text-decoration: none;
   text-transform: uppercase;
 }
 header nav a:hover {
-  color: black;
+  color: white;
 }
 .headerImg {
   display: flex;
@@ -168,14 +168,14 @@ h1 {
   font-size: 150px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: red;
 }
 .headerstmnt {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: red;
 }
 .headerstmnt h2 {
   font-size: 65px;
@@ -188,14 +188,14 @@ h1 {
 button {
   margin-bottom: 1%;
   background-color: red;
-  color: white;
+  color: black;
   font-size: 25px;
 }
 button:hover {
-  color: black;
+  color: white;
 }
 .skillsInterests {
-  background-color: slategray;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,7 +203,7 @@ button:hover {
 .skillsInterests div {
   margin: 2% 10%;
   padding: 1%;
-  color: white;
+  color: red;
 }
 .skillsInterests div h2 {
   font-size: 65px;
@@ -225,21 +225,21 @@ hr {
   margin: 0;
 }
 .workHistory {
-  background-color: slategray;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .workHistory h2 {
   font-size: 55px;
-  color: white;
+  color: red;
 }
 .workHistory div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  color: white;
+  color: red;
   padding: 2%;
   margin: 1%;
 }
@@ -249,7 +249,7 @@ hr {
   padding-bottom: 5%;
 }
 .copyright {
-  background-color: slategray;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
