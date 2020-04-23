@@ -140,13 +140,17 @@ body {
     height: 80%;
   }
 }
+.centerAI {
+  display: flex;
+  align-items: center;
+}
 header {
   background-color: black;
 }
 header nav {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   padding: 2%;
 }
 header nav a {
@@ -172,9 +176,9 @@ h1 {
 }
 .headerstmnt {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   color: red;
 }
 .headerstmnt h2 {
@@ -248,10 +252,58 @@ hr {
   text-decoration: underline;
   padding-bottom: 5%;
 }
+.footer {
+  background-color: black;
+}
+.footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+.footer nav a {
+  margin: 0 2.5%;
+  color: red;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer nav a:hover {
+  color: white;
+}
 .copyright {
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   color: red;
+}
+.aboutheader {
+  color: red;
+}
+.aboutheader h1 {
+  padding-bottom: 5%;
+  font-size: 8rem;
+}
+.aboutheaderstmnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutheaderstmnt h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutheaderstmnt h3 {
+  font-size: 1.5rem;
+  padding: 1%;
+}
+.aboutheaderstmnt p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid red;
+}
+.aboutheaderstmnt button {
+  margin-bottom: 1%;
 }
