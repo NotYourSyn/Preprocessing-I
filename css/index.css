@@ -223,9 +223,9 @@ button:hover {
 }
 hr {
   height: 2px;
-  color: red;
+  color: slategray;
   border: none;
-  background-color: red;
+  background-color: slategray;
   margin: 0;
 }
 .workHistory {
@@ -302,8 +302,107 @@ hr {
 .aboutheaderstmnt p {
   padding: 2.5%;
   margin: 3%;
-  border: 2px solid red;
+  border: 2px solid slategray;
 }
 .aboutheaderstmnt button {
   margin-bottom: 1%;
+}
+.aboutImgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: red;
+}
+.aboutImgs .aboutImg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.aboutImgs .aboutImg1 h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutImgs .aboutImg1 p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid slategray;
+}
+.aboutImgs .aboutImg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutImgs .aboutImg2 h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutImgs .aboutImg2 p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid slategray;
+}
+.aboutImgs .aboutImg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutImgs .aboutImg3 h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutImgs .aboutImg3 p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid slategray;
+}
+.aboutImgs .aboutImg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutImgs .aboutImg4 h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutImgs .aboutImg4 p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid slategray;
+}
+.aboutImgs .aboutImg5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutImgs .aboutImg5 h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutImgs .aboutImg5 p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid slategray;
+}
+.aboutImgs .aboutImg6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutImgs .aboutImg6 h2 {
+  font-size: 5rem;
+  padding: 1%;
+}
+.aboutImgs .aboutImg6 p {
+  padding: 2.5%;
+  margin: 3%;
+  border: 2px solid slategray;
 }

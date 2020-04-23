@@ -65,6 +65,7 @@ html, body {
 @border-style: 2px solid white;
 @hover-color: white;
 @background-color: black;
+@h2font-size: 5rem;
 
 .center() {
 	display: flex;
@@ -83,6 +84,20 @@ html, body {
 
 .pad-b() {
 	padding-bottom: 5%;
+}
+.imgDivSizing(){
+	.center();
+		flex-direction: column;
+
+		h2 {
+			font-size: @h2font-size;
+			padding: 1%;
+		}
+		p{
+			padding: 2.5%;
+			margin: 3%;
+			border: 2px solid slategray;
+		}
 }
 
 header {
@@ -173,10 +188,11 @@ h1 {
 
 hr {
  height: 2px;
- color: @primary-color;
+ color: slategray;
  border: none;
- background-color: @primary-color;
+ background-color: slategray;
  margin: 0;
+ 
 }
 
 .workHistory {
@@ -247,7 +263,7 @@ hr {
 	flex-direction: column;
 
 	h2 {
-		font-size: 5rem;
+		font-size: @h2font-size;
 		padding: 1%;
 	}
 	h3 {
@@ -257,12 +273,41 @@ hr {
 	p {
 		padding: 2.5%;
 		margin: 3%;
-		border: 2px solid red;
+		border: 2px solid slategray;
 	}
 	button {
 		margin-bottom: 1%;
 	}
 }
+.aboutImgs {
+	.center();
+	flex-direction: column;
+	 background-color: @background-color;
+	 color: @primary-color;
+
+	 .aboutImg1 {
+		 .imgDivSizing();
+		 margin-top: 2%;
+	 }
+
+	 .aboutImg2 {
+		.imgDivSizing();
+	}
+	.aboutImg3 {
+		.imgDivSizing();
+	}
+	.aboutImg4 {
+		.imgDivSizing();
+	}
+	.aboutImg5 {
+		.imgDivSizing();	
+	}
+	.aboutImg6 {
+		.imgDivSizing();
+	}
+}
+
+ 
 
 
 
