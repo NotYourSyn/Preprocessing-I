@@ -406,3 +406,11 @@ hr {
   margin: 3%;
   border: 2px solid slategray;
 }
+.contactHeader h1 {
+  font-size: 3.5rem;
+}
+.contactForm {
+  padding: 3%;
+  color: red;
+  background-color: black;
+}
